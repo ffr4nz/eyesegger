@@ -29,9 +29,9 @@ $ python sixcansrv.py -p 4343
 ```
 Consume API service using */ip/* endpoint
 
-**http://whoareyou.server.domain:4343/ip/<IPv6-ADDR>/<PORT>/<PROTOCOL>**
+**http://eyesegger.server.domain:service-port/ip/IPv6-ADDR/PORT/PROTOCOL**
 
-**http://server:server-port/ip/2001:1838:2007:0::1/22/tcp**
+**http://eyesegger.server.domain:service-port/ip/2001:1838:2007:0::1/22/tcp**
 ```json
 
 {
